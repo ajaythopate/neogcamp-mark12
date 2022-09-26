@@ -1,0 +1,27 @@
+:root {
+  --primary-color: rgb(205, 170, 74);
+}
+body {
+  margin: 0px;
+  text-align: center;
+  padding: 0rem;
+  background-color: rgb(177, 177, 202);
+}
+
+.navigation {
+  margin-top: 0px;
+  background-color: var(--primary-color);
+  padding: 50px;
+  font-size: xx-large;
+  
+  text-emphasis-color: black;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.main{
+    font-size: larger;
+    flex-direction: row;
+    
+}
+
+
