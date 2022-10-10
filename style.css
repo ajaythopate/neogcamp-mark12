@@ -27,7 +27,7 @@ body {
 }
 
 
-.angle-input {
+.angle-input, .side-input {
   font-size: 14px;
   outline: #fff;
   padding: 0.6rem 1rem;
@@ -38,7 +38,7 @@ body {
   max-width: 258px;
 }
 
-#submit-answer-btn {
+#submit-answer-btn , #hypotenues-btn {
   padding: 0.6rem 2rem;
 font-weight: 600;
 border: 2px solid transparent;
