@@ -27,3 +27,31 @@ body {
 }
 
 
+.angle-input, .side-input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+#submit-answer-btn , #hypotenues-btn {
+  padding: 0.6rem 2rem;
+font-weight: 600;
+border: 2px solid transparent;
+outline: none;
+cursor: pointer;
+text-transform: uppercase;
+transition: all .2s ease;
+text-decoration: none;
+border-radius: 0.5rem;
+margin-left: 55px;
+margin-bottom: 15px;
+}
+
+#output {
+font-weight: bold;
+}
