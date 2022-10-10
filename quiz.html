@@ -19,8 +19,8 @@
 
       <a href="/hypotenues.html">Calculate Hypotenues</a>
     </nav>
-    
-    <h1>Triangle Quiz</h1>
+    <div id="output"></div>
+    <h2>Triangle Quiz</h2>
     <form class="quiz-form">
       <div class="question-container">
         <p>
@@ -45,9 +45,38 @@
           angled</label
         >
       </div>
+
+      <div class="question-container">
+        <p>A triangle can have</p>
+        <label>
+          <input type="radio" name="question3" value="one right angle" />
+          one right angle
+        </label>
+        <label><input type="radio" name="question3" value="two right angles" />two
+          right angles</label>
+      </div>
+      <div class="question-container">
+        <p>Which of the following can form a right angled triangle?</p>
+        <label>
+          <input type="radio" name="question4" value="14, 15, 26" />
+          14, 15, 26
+        </label>
+        <label>
+          <input type="radio" name="question4" value="12, 16, 20" />
+          12, 16, 20</label>
+      </div>
+      <div class="question-container">
+        <p>Which of the following triangles are always similar?</p>
+        <label>
+          <input type="radio" name="question5" value="Equilateral triangle" />
+          Equilateral triangle
+        </label>
+        <label>
+          <input type="radio" name="question5" value="Isosceles triangle" />
+          Isosceles triangle</label>
+      </div>
     </form>
     <button id="submit-answer-btn">Submit Answer</button>
-    <div id="output"></div>
     </main>
     <script src="/quiz.js"></script>
   </body>

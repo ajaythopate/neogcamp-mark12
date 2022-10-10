@@ -38,7 +38,7 @@ body {
   max-width: 258px;
 }
 
-#is-triangle-btn {
+#submit-answer-btn {
   padding: 0.6rem 2rem;
 font-weight: 600;
 border: 2px solid transparent;
@@ -53,5 +53,5 @@ margin-bottom: 15px;
 }
 
 #output {
-margin-left: 55px;
+font-weight: bold;
 }

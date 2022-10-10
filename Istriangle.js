@@ -1,5 +1,5 @@
 const inputs = document.querySelectorAll(".angle-input");
-const IsTriangleBtn = document.querySelector("#is-triangle-btn");
+const IsTriangleBtn = document.querySelector("#submit-answer-btn");
 const output = document.querySelector("#output");
 
 
